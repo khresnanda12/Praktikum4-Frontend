@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-family: inherit;
+  border: 1px solid #d2d2d7;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: #0071e3;
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.15);
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.button {
+  padding: 14px;
+  font-size: 17px;
+  color: #fff;
+  background: #0071e3;
+  border: none;
+  border-radius: 980px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: #0077ed;
+}
+
+.success {
+  text-align: center;
+  color: #248a3d;
+  font-size: 15px;
+}

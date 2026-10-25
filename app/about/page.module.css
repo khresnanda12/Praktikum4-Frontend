@@ -1,0 +1,47 @@
+.section {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.title {
+  font-size: clamp(32px, 6vw, 48px);
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.text {
+  line-height: 1.7;
+  color: #424245;
+  margin-bottom: 16px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 40px 0;
+}
+
+.stat {
+  background: #f5f5f7;
+  border-radius: 16px;
+  padding: 24px 12px;
+  text-align: center;
+}
+
+.number {
+  font-size: clamp(24px, 5vw, 36px);
+  font-weight: 700;
+  color: #0071e3;
+}
+
+.label {
+  font-size: 13px;
+  color: #6e6e73;
+  margin-top: 4px;
+}
+
+.action {
+  text-align: center;
+}
